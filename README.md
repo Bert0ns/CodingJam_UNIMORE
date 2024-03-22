@@ -26,7 +26,7 @@ chat gpt doesn't work.
 
 [es 2](http://codingjam.jemore.it/4a65746f705f6d657264)
 
-[es 3](http://codingjam.jemore.it/4RR3N4IT11)
+[es 3](http://codingjam.jemore.it/4RR3N4IT11) --> possible solution: 96363636368
 
 ### Sponsors of the event
 
