@@ -24,6 +24,8 @@ chat gpt doesn't work.
 
 [submit](http://codingjam.jemore.it/submit)
 
+[es 2](http://codingjam.jemore.it/4a65746f705f6d657264)
+
 ### Sponsors of the event
 
 LantechLongWave
