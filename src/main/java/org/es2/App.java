@@ -1,4 +1,4 @@
-package org.es1.es2;
+package org.es2;
 
 public class App {
 }
