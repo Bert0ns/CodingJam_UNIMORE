@@ -11,13 +11,13 @@ import java.util.ArrayList;
 public class App {
     public static long ris = 0; //punteggio
 
-    public static long main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         ArrayList<Character> list_input = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader("/Users/barack/IdeaProjects/CodingJam_UNIMORE/src/main/input.txt"));
         String line = reader.readLine();
 
         while (line != null) {
-            int j = 0;
+            int j = -1;
             for(int i = 0; line.length() > i; i++){
                 char c = line.charAt(i);
                 if(j == 0 && (c == ')' || c == '}' || c == ']' || c == '>')){
@@ -25,45 +25,47 @@ public class App {
                     break;
                 }
                 else if(c == ')'){
-                    if(c == list_input.get(j)) {
+                    if(list_input.get(j) == '('){
                         list_input.remove(j);
                         j--;
-                    }else {
-                        SommaPunteggio(')');
+                    }else{
+                        SommaPunteggio(c);
+                        break;
+                    }
+                }else if(c == ']'){
+                    if(list_input.get(j) == '['){
+                        list_input.remove(j);
+                        j--;
+                    }else{
+                        SommaPunteggio(c);
                         break;
                     }
                 }else if(c == '}'){
-                    if(c == list_input.get(j)) {
+                    if(list_input.get(j) == '{'){
                         list_input.remove(j);
                         j--;
-                    }else {
-                        SommaPunteggio('}');
+                    }else{
+                        SommaPunteggio(c);
                         break;
                     }
-                }else if(c == '>') {
-                    if(c == list_input.get(j)) {
+                }else if(c == '>'){
+                    if(list_input.get(j) == '<'){
                         list_input.remove(j);
                         j--;
-                    }else {
-                        SommaPunteggio('>');
+                    }else{
+                        SommaPunteggio(c);
                         break;
                     }
-                }else if(c == ']') {
-                    if(c == list_input.get(j)) {
-                        list_input.remove(j);
-                        j--;
-                    }else {
-                        SommaPunteggio(']');
-                        break;
-                    }
-                }else {
+                }
+                else {
                     list_input.add(c);
                     j++;
                     }
             }
+            list_input.clear();
             line = reader.readLine();
         }
-        return ris;
+        System.out.println(ris);
     }
 
     /**
