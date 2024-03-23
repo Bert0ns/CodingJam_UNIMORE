@@ -1,6 +1,7 @@
 package org.es4;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
 
 public class Es4 {
     private final long E = 17459243613L;
