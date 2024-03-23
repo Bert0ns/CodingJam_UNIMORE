@@ -14,7 +14,9 @@ chat gpt doesn't work.
 
 * ES 4
   
-  needs numbers over 64 bit 
+  needs numbers over 64 bit
+
+  COMPLETED
 
 ## External links
 
@@ -26,7 +28,7 @@ chat gpt doesn't work.
 
 [es 2](http://codingjam.jemore.it/4a65746f705f6d657264)
 
-[es 3](http://codingjam.jemore.it/4RR3N4IT11) --> possible solution: 96363636368
+[es 3](http://codingjam.jemore.it/4RR3N4IT11)
 
 [es 4](http://codingjam.jemore.it/S31_QuaSi_4rr1v4t)
 
