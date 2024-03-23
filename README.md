@@ -28,6 +28,8 @@ chat gpt doesn't work.
 
 [es 3](http://codingjam.jemore.it/4RR3N4IT11) --> possible solution: 96363636368
 
+[es 4](http://codingjam.jemore.it/S31_QuaSi_4rr1v4t)
+
 ### Sponsors of the event
 
 LantechLongWave
