@@ -16,6 +16,8 @@ chat gpt doesn't resolve the problems.
 
 ## External links
 
+They don't work anymore
+
 [codingjam.jemore.it](http://codingjam.jemore.it/)
 
 [submit](http://codingjam.jemore.it/submit)
