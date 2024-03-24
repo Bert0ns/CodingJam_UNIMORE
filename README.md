@@ -1,6 +1,6 @@
 # Coding Competition JEMORE 2024
 
-***The event has ended the 23/03/2024***
+***The event has ended in 23/03/2024***
 
 10 teams of 5 people compete in a speed programming competition, 24h time limit
 
