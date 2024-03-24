@@ -5,5 +5,6 @@ public class App {
         Es4 esercizio4 = new Es4();
 
         esercizio4.decodifica();
+
     }
 }
