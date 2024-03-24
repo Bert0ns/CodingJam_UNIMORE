@@ -1,9 +1,8 @@
-# Coding Competition JEMORE
-# COMPLETED
+# Coding Competition JEMORE 2024
 
-10 teams of 5 people compete in a speed programming competition, 2 days time limit
+***The event has ended the 23/03/2024***
 
-4 pm 23/03/2024 the competition ends
+10 teams of 5 people compete in a speed programming competition, 24h time limit
 
 ## Exercises
 
@@ -11,7 +10,7 @@ Every exercise has a quick 10s solution.
 
 The bruteforce solution takes 4h/5h.
 
-chat gpt doesn't work.
+chat gpt doesn't resolve the problems.
 
 * ES 4: needs numbers over 64 bit
 
